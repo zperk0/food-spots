@@ -1,0 +1,8 @@
+{
+  "name": "food-spots",
+  "version": "1.0.0",
+  "description": "An app for users to share their favorite food spots in the city",
+  "main": "server/index.js",
+  "license": "Apache License 2.0",
+  "private": false
+}
