@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An app for users to share their favorite food spots in the city",
   "main": "server/index.js",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "private": false,
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -13,6 +13,7 @@
     "nodemon": "^1.17.3"
   },
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "nodemon server/index.js",
+    "production-start": "cd client; yarn build; cd ..; node server/index.js"
   }
 }
